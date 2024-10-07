@@ -1,0 +1,27 @@
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/shiny-night-city_1127-8.jpg?w=1060&t=st=1728301246~exp=1728301846~hmac=17308b4280d97abd4632a3396402234631227ce59cd490fac94010e79187e190);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 0%);
+
+}
